@@ -2,7 +2,7 @@
 
 ## 2lips is a startup lipstick kit brand that suits anyone
 
-![GitHub Logo](\PICS\Projects\2lip-landingpage.jpg)
+![2lips Landing Page](/)
 
 
 ### Technologies Used:
