@@ -1,4 +1,4 @@
-#2Lips
+# 2Lips Website
 
 ## 2Lips is a startup lipstick kit brand that suits anyone
 
