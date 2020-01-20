@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'B612', sans-serif;
+    z-index: 1;
+    transition: 0.5s ease-in;
+}
+
+.navlogo {
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+nav li{
+    list-style: none; 
+    text-transform: uppercase; 
+}
+
+nav a {
+    color: #FF6F5C;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(img/2lip-landing.jpg);
+}
+
+.inner-content {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    line-height: 100px;
+}
+
+.inner-content h1 {
+    text-align: center;
+    font-size: 90px;
+    letter-spacing: 3px;
+    font-family: 'Ultra', serif; 
+    color: #FF523B;
+    text-shadow: 2px 2px #FFB4AA;
+}
+
+.inner-content h3 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'B612', sans-serif;
+    color: #FF523B;
+}
+
+.shop p {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFE2DE;
+    transition: background-color 0.2s ease-in;
+}
+
