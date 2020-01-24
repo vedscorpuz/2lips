@@ -9,5 +9,5 @@
 HTML, CSS, JavaScript
 
 ### Things Covered:
-Sticky Nav Bar, different sectioning, logo design, background design, hover icons
+Sticky Nav Bar, different sectioning, logo design, background design, hover icons, on-scroll animations
 
