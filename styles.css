@@ -88,3 +88,22 @@ nav a {
     transition: background-color 0.2s ease-in;
 }
 
+.about {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-color: #FFE2DE;
+}
+
+#about-quote1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'B612', sans-serif;
+    font-style: italic;
+}
+
