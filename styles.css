@@ -17,7 +17,7 @@ nav {
     align-items: center;
     min-height: 8vh;
     font-family: 'B612', sans-serif;
-    z-index: 1;
+    z-index: 5;
     transition: 0.5s ease-in;
 }
 
@@ -90,7 +90,7 @@ nav a {
 
 .about {
     position: absolute;
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     margin: auto;
     background-color: #FFE2DE;
@@ -111,14 +111,31 @@ nav a {
     display: block;
     margin: 30px;
     padding: 10px;
+    width: auto;
+    height: 150vh;
 }
 
 .img-wrap1 {
     position: relative;
+    float: left;
 }
 
 .img-assorted {
-    max-width: 100%;
+    position: absolute;
+    width: 1000px;
     height: auto;
+    top: 50%;
+    left: 25%;
+    transform: translate(15%, 15%);
+    z-index: 2;
+}
+
+.img-model {
+    position: relative;
+    width: 700px;
+    height: auto;
+    float: right;
+    margin: auto;
+    z-index: 1;
 }
 
