@@ -90,7 +90,7 @@ nav a {
 
 .about {
     position: absolute;
-    height: 150vh;
+    height: 250vh;
     width: 100%;
     margin: auto;
     background-color: #FFE2DE;
@@ -117,6 +117,7 @@ nav a {
 
 .img-wrap1 {
     position: absolute;
+    display: block;
     width: 1000px;
     height: auto;
     top: 10%;
@@ -138,11 +139,12 @@ nav a {
     height: auto;
     float: right;
     margin: auto;
+    top: 100px;
     z-index: 1;
 }
 
 .img-model {
-    width: 900px;
+    width: 700px;
     height: auto;
     margin: auto;
 }
@@ -165,5 +167,18 @@ nav a {
     font-weight: lighter;
     font-size: 20px;
     font-family: 'B612', sans-serif;
+}
+
+.img-wrap3 {
+    position: relative;
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+.img-wrap3 img {
+    width: 600px;
+    height: auto;
+    margin: auto;
 }
 
